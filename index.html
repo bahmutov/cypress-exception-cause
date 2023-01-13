@@ -1,0 +1,6 @@
+<body>
+  <h1>Hello</h1>
+  <script>
+    throw new Error('Top level error', { cause: new Error('inner problem') })
+  </script>
+</body>
